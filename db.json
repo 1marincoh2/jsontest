@@ -1,0 +1,32 @@
+{
+  "reservas": [
+    {
+      "id": 1,
+      "cliente": {
+        "nombre": "Nombre del cliente",
+        "telefono": "Número de teléfono del cliente",
+        "email": "Correo electrónico del cliente"
+      },
+      "pedido": {
+        "fecha_entrega": "2024-02-09",
+        "hora_entrega": "13:00"
+      }
+    },
+    {
+      "id": 2,
+      "cliente": {
+        "nombre": "Otro Cliente",
+        "telefono": "Otro número de teléfono",
+        "email": "Correo electrónico del otro cliente"
+      },
+      "pedido": {
+        "fecha_entrega": "2024-02-09",
+        "hora_entrega": "15:00"
+      }
+    }
+  ],
+  "horas_reservadas": {
+    "2024-02-09": ["13:00"],
+    "2024-02-10": ["15:00"]
+  }
+}
